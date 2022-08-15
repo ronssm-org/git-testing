@@ -1,5 +1,3 @@
-function soma(a, b) {
-    return a + b;
-}
+const soma = require ("./service.js");
 
-export default soma;
+console.log(soma(1,2));
